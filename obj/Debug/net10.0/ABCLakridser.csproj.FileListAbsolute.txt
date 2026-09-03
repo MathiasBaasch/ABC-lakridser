@@ -1,0 +1,15 @@
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\bin\Debug\net10.0\ABCLakridser.exe
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\bin\Debug\net10.0\ABCLakridser.deps.json
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\bin\Debug\net10.0\ABCLakridser.runtimeconfig.json
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\bin\Debug\net10.0\ABCLakridser.dll
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\bin\Debug\net10.0\ABCLakridser.pdb
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.AssemblyInfoInputs.cache
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.AssemblyInfo.cs
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.csproj.CoreCompileInputs.cache
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.dll
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\refint\ABCLakridser.dll
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.pdb
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.genruntimeconfig.cache
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ref\ABCLakridser.dll
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\bin\Debug\net10.0\Text.txt
