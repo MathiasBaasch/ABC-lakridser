@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ABCLakridser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d1436f5460565210e99d8521d05d6b2eb25b080")]
 [assembly: System.Reflection.AssemblyProductAttribute("ABCLakridser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ABCLakridser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

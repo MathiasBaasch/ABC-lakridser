@@ -13,3 +13,4 @@ C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakrid
 C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.genruntimeconfig.cache
 C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ref\ABCLakridser.dll
 C:\Users\mathi\Documents\Kode projekter\ABCLakridser\bin\Debug\net10.0\Text.txt
+C:\Users\mathi\Documents\Kode projekter\ABCLakridser\obj\Debug\net10.0\ABCLakridser.sourcelink.json

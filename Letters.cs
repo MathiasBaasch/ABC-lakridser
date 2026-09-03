@@ -2,7 +2,7 @@
 
 public class Letters
 {
-    Dictionary<char, int> bagDict  = new Dictionary<char, int>
+    Dictionary<char, int> bagDict = new Dictionary<char, int>
     {
         { 'A', 2 },
         { 'B', 2 },
@@ -41,10 +41,7 @@ public class Letters
 
         foreach (char c in line)
         {
-            if (!char.IsLetter(c))
-            {
-            }
-            else
+            if (char.IsLetter(c))
             {
                 char e = char.ToUpper(c);
                 if (dict.ContainsKey(e))
@@ -63,25 +60,22 @@ public class Letters
 
     public int TotalBags(Dictionary<char, int> totalDict)
     {
-        int piecesInBag = 0;
-        double total = 0;
-        int total2 = 0;
         int bags = 0;
-        
-        foreach (var VARIABLE in totalDict)
+
+        foreach (var letter in totalDict)
         {
-            if (bagDict.ContainsKey(VARIABLE.Key))
+            if (bagDict.ContainsKey(letter.Key))
             {
-                piecesInBag = bagDict[VARIABLE.Key];
-            }
-            total = VARIABLE.Value / piecesInBag;
-            total = Math.Ceiling(total);
-            total2 = (int)total;
-            if (total2 > bags)
-            {
-                bags = total2;
+                int piecesInBag = bagDict[letter.Key];
+                int bagsNeeded = (int)Math.Ceiling((double)letter.Value / piecesInBag);
+
+                if (bagsNeeded > bags)
+                {
+                    bags = bagsNeeded;
+                }
             }
         }
+
         return bags;
     }
 }

@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Letters l = new Letters();
+        Letters letters = new Letters();
 
         Dictionary<char, int> totalDict = new Dictionary<char, int>();
 
@@ -16,7 +16,7 @@ class Program
 
                 while ((line = r.ReadLine()) != null)
                 {
-                    Dictionary<char, int> lineDict = l.CountLetter(line);
+                    Dictionary<char, int> lineDict = letters.CountLetter(line);
                     foreach (var item in lineDict)
                     {
                         if (totalDict.ContainsKey(item.Key))
@@ -35,13 +35,12 @@ class Program
             {
                 Console.WriteLine(item.Key + ": " + item.Value);
             }
-            Console.WriteLine($"Total number of bags needed to write the text: {l.TotalBags(totalDict)}");
+            Console.WriteLine($"Total number of bags needed to write the text: {letters.TotalBags(totalDict)}");
             
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            throw;
         }
     }
 }
